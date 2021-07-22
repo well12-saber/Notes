@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.25" />
+    <PackageReference Include="MySqlConnector" Version="1.3.11" />
+    <PackageReference Include="Renci.SshNet.Async" Version="1.4.0" />
+    <PackageReference Include="SSH.NET" Version="2020.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySql.Data.DLL</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
